@@ -1,0 +1,15 @@
+# Signing material. An update must be signed with the owner's existing key,
+# which lives outside this repository.
+*.jks
+*.keystore
+keystore.pass
+*.pass
+
+# build.sh outputs
+build/
+out/
+*.apk
+*.ap_
+*.dex
+*.class
+*.idsig
